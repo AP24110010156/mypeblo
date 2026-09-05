@@ -1,0 +1,1723 @@
+{
+  "metadata": {
+    "published_at": "2026-09-04T04:26:08.403807Z",
+    "published_by": "admin",
+    "shows_count": 7,
+    "episodes_count": 85,
+    "version": "v1.0"
+  },
+  "sections": {
+    "featured": [
+      {
+        "id": 1,
+        "title": "Moti's Many Lives",
+        "slug": "motis-many-lives",
+        "section": "featured",
+        "categories": [
+          "adventure",
+          "india",
+          "friendship"
+        ],
+        "synopsis": "Moti the dog is reborn across India, making new friends in every state.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "motis-many-lives-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0001",
+                    "language": "en",
+                    "duration_seconds": 510
+                  },
+                  {
+                    "episode_id": "ep_0002",
+                    "language": "hi",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "Rain on the Roof",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0003",
+                    "language": "en",
+                    "duration_seconds": 540
+                  },
+                  {
+                    "episode_id": "ep_0004",
+                    "language": "hi",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e02_duplicate_ep_9001",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "The Lost Kite (v2)",
+                "duration_seconds": 660,
+                "available_languages": [
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_9001",
+                    "language": "hi",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A Bridge of Stones",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0005",
+                    "language": "en",
+                    "duration_seconds": 420
+                  },
+                  {
+                    "episode_id": "ep_0006",
+                    "language": "hi",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0007",
+                    "language": "en",
+                    "duration_seconds": 600
+                  },
+                  {
+                    "episode_id": "ep_0008",
+                    "language": "hi",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0009",
+                    "language": "en",
+                    "duration_seconds": 510
+                  },
+                  {
+                    "episode_id": "ep_0010",
+                    "language": "hi",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0011",
+                    "language": "en",
+                    "duration_seconds": 420
+                  },
+                  {
+                    "episode_id": "ep_0012",
+                    "language": "hi",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e07",
+                "season_number": 1,
+                "episode_number": 7,
+                "episode_title": "Grandmother's Map",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0013",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e08",
+                "season_number": 1,
+                "episode_number": 8,
+                "episode_title": "The Runaway Cart",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0014",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e09",
+                "season_number": 1,
+                "episode_number": 9,
+                "episode_title": "Songs of the Sea",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0015",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "motis-many-lives-s01e10",
+                "season_number": 1,
+                "episode_number": 10,
+                "episode_title": "The Paper Boat",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0016",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": [
+          {
+            "episode_id": "ep_0093",
+            "episode_title": "Trailer",
+            "duration_seconds": 75,
+            "language": "en",
+            "artworks": {
+              "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "series": [
+      {
+        "id": 6,
+        "title": "Curious Cubs",
+        "slug": "curious-cubs",
+        "section": "series",
+        "categories": [
+          "science",
+          "nature"
+        ],
+        "synopsis": "Two cubs ask big questions about the natural world.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "curious-cubs-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0069",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "Rain on the Roof",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0070",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A BRIDGE OF STONES",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0071",
+                    "language": "en",
+                    "duration_seconds": 510
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0072",
+                    "language": "en",
+                    "duration_seconds": 510
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0073",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0074",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e07",
+                "season_number": 1,
+                "episode_number": 7,
+                "episode_title": "Grandmother's Map",
+                "duration_seconds": 660,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0075",
+                    "language": "en",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "curious-cubs-s01e08",
+                "season_number": 1,
+                "episode_number": 8,
+                "episode_title": "The Runaway Cart",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0076",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": []
+      },
+      {
+        "id": 7,
+        "title": "Number Nest",
+        "slug": "number-nest",
+        "section": "series",
+        "categories": [
+          "maths",
+          "learning"
+        ],
+        "synopsis": "Playful stories that sneak in early number sense.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "number-nest-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0077",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "number-nest-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "rain on the roof",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0078",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "number-nest-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A Bridge of Stones",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0079",
+                    "language": "en",
+                    "duration_seconds": 510
+                  }
+                ]
+              },
+              {
+                "content_group": "number-nest-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0080",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "number-nest-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0081",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "number-nest-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0082",
+                    "language": "en",
+                    "duration_seconds": 510
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": []
+      },
+      {
+        "id": 2,
+        "title": "Tiny Tales by Banyan Dadi",
+        "slug": "tiny-tales-banyan-dadi",
+        "section": "series",
+        "categories": [
+          "stories",
+          "values",
+          "folk"
+        ],
+        "synopsis": "Banyan Dadi tells short bedtime tales under the old banyan tree.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0017",
+                    "language": "en",
+                    "duration_seconds": 540
+                  },
+                  {
+                    "episode_id": "ep_0018",
+                    "language": "hi",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "Rain on the Roof",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0019",
+                    "language": "en",
+                    "duration_seconds": 480
+                  },
+                  {
+                    "episode_id": "ep_0020",
+                    "language": "hi",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A Bridge of Stones",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0021",
+                    "language": "en",
+                    "duration_seconds": 600
+                  },
+                  {
+                    "episode_id": "ep_0022",
+                    "language": "hi",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0023",
+                    "language": "en",
+                    "duration_seconds": 420
+                  },
+                  {
+                    "episode_id": "ep_0024",
+                    "language": "hi",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0025",
+                    "language": "en",
+                    "duration_seconds": 420
+                  },
+                  {
+                    "episode_id": "ep_0026",
+                    "language": "hi",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 660,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0027",
+                    "language": "en",
+                    "duration_seconds": 660
+                  },
+                  {
+                    "episode_id": "ep_0028",
+                    "language": "hi",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e07",
+                "season_number": 1,
+                "episode_number": 7,
+                "episode_title": "Grandmother's Map",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0029",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e08",
+                "season_number": 1,
+                "episode_number": 8,
+                "episode_title": "The Runaway Cart",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0030",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e09",
+                "season_number": 1,
+                "episode_number": 9,
+                "episode_title": "Songs of the Sea",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0031",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "tiny-tales-banyan-dadi-s01e10",
+                "season_number": 1,
+                "episode_number": 10,
+                "episode_title": "The Paper Boat",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0032",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": [
+          {
+            "episode_id": "ep_0094",
+            "episode_title": "Trailer",
+            "duration_seconds": 75,
+            "language": "en",
+            "artworks": {
+              "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "minisodes": [
+      {
+        "id": 3,
+        "title": "Discover India with Moti",
+        "slug": "discover-india-with-moti",
+        "section": "minisodes",
+        "categories": [
+          "travel",
+          "india",
+          "learning"
+        ],
+        "synopsis": "Quick hops across Indian states with Moti as your guide.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "discover-india-with-moti-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0033",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "Rain on the Roof",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0034",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A Bridge of Stones",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0035",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {},
+                "variants": [
+                  {
+                    "episode_id": "ep_0036",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0037",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0038",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e07",
+                "season_number": 1,
+                "episode_number": 7,
+                "episode_title": "Grandmother's Map",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0039",
+                    "language": "en",
+                    "duration_seconds": 510
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e08",
+                "season_number": 1,
+                "episode_number": 8,
+                "episode_title": "The Runaway Cart",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0040",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e09",
+                "season_number": 1,
+                "episode_number": 9,
+                "episode_title": "Songs of the Sea",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0041",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "discover-india-with-moti-s01e10",
+                "season_number": 1,
+                "episode_number": 10,
+                "episode_title": "The Paper Boat",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0042",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": []
+      }
+    ],
+    "songs": [
+      {
+        "id": 4,
+        "title": "Peblo Songs",
+        "slug": "peblo-songs",
+        "section": "songs",
+        "categories": [
+          "music",
+          "singalong"
+        ],
+        "synopsis": "Catchy singalongs for little learners.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "peblo-songs-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0043",
+                    "language": "en",
+                    "duration_seconds": 420
+                  },
+                  {
+                    "episode_id": "ep_0044",
+                    "language": "hi",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "Rain on the Roof",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0045",
+                    "language": "en",
+                    "duration_seconds": 510
+                  },
+                  {
+                    "episode_id": "ep_0046",
+                    "language": "hi",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A Bridge of Stones",
+                "duration_seconds": 660,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0047",
+                    "language": "en",
+                    "duration_seconds": 660
+                  },
+                  {
+                    "episode_id": "ep_0048",
+                    "language": "hi",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0049",
+                    "language": "en",
+                    "duration_seconds": 420
+                  },
+                  {
+                    "episode_id": "ep_0050",
+                    "language": "hi",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0051",
+                    "language": "en",
+                    "duration_seconds": 600
+                  },
+                  {
+                    "episode_id": "ep_0052",
+                    "language": "hi",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en",
+                  "hi"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0053",
+                    "language": "en",
+                    "duration_seconds": 480
+                  },
+                  {
+                    "episode_id": "ep_0054",
+                    "language": "hi",
+                    "duration_seconds": 510
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e07",
+                "season_number": 1,
+                "episode_number": 7,
+                "episode_title": "Grandmother's Map",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0055",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e08",
+                "season_number": 1,
+                "episode_number": 8,
+                "episode_title": "The Runaway Cart",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0056",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e09",
+                "season_number": 1,
+                "episode_number": 9,
+                "episode_title": "Songs of the Sea",
+                "duration_seconds": 660,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0057",
+                    "language": "en",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-s01e10",
+                "season_number": 1,
+                "episode_number": 10,
+                "episode_title": "The Paper Boat",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0058",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": []
+      },
+      {
+        "id": 5,
+        "title": "Peblo Songs — Lyrical",
+        "slug": "peblo-songs-lyrical",
+        "section": "songs",
+        "categories": [
+          "music",
+          "reading"
+        ],
+        "synopsis": "The same songs with words on screen to read along.",
+        "poster_url": "http://localhost:8000/sample_assets/poster_good.jpg",
+        "banner_url": "http://localhost:8000/sample_assets/banner_good.jpg",
+        "seasons": [
+          {
+            "season_number": 1,
+            "episodes": [
+              {
+                "content_group": "peblo-songs-lyrical-s01e01",
+                "season_number": 1,
+                "episode_number": 1,
+                "episode_title": "The Lost Kite",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0059",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e02",
+                "season_number": 1,
+                "episode_number": 2,
+                "episode_title": "Rain on the Roof",
+                "duration_seconds": 420,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0060",
+                    "language": "en",
+                    "duration_seconds": 420
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e03",
+                "season_number": 1,
+                "episode_number": 3,
+                "episode_title": "A Bridge of Stones",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0061",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e04",
+                "season_number": 1,
+                "episode_number": 4,
+                "episode_title": "The Midnight Market",
+                "duration_seconds": 480,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0062",
+                    "language": "en",
+                    "duration_seconds": 480
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e05",
+                "season_number": 1,
+                "episode_number": 5,
+                "episode_title": "Footprints in Flour",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0063",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e06",
+                "season_number": 1,
+                "episode_number": 6,
+                "episode_title": "The Whistling Well",
+                "duration_seconds": 660,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0064",
+                    "language": "en",
+                    "duration_seconds": 660
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e07",
+                "season_number": 1,
+                "episode_number": 7,
+                "episode_title": "Grandmother's Map",
+                "duration_seconds": 600,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0065",
+                    "language": "en",
+                    "duration_seconds": 600
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e08",
+                "season_number": 1,
+                "episode_number": 8,
+                "episode_title": "The Runaway Cart",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0066",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e09",
+                "season_number": 1,
+                "episode_number": 9,
+                "episode_title": "Songs of the Sea",
+                "duration_seconds": 510,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0067",
+                    "language": "en",
+                    "duration_seconds": 510
+                  }
+                ]
+              },
+              {
+                "content_group": "peblo-songs-lyrical-s01e10",
+                "season_number": 1,
+                "episode_number": 10,
+                "episode_title": "The Paper Boat",
+                "duration_seconds": 540,
+                "available_languages": [
+                  "en"
+                ],
+                "artworks": {
+                  "banner": "http://localhost:8000/sample_assets/banner_good.jpg",
+                  "poster": "http://localhost:8000/sample_assets/poster_good.jpg",
+                  "thumbnail": "http://localhost:8000/sample_assets/thumbnail_good.jpg"
+                },
+                "variants": [
+                  {
+                    "episode_id": "ep_0068",
+                    "language": "en",
+                    "duration_seconds": 540
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trailers": []
+      }
+    ]
+  }
+}

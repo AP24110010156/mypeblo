@@ -1,0 +1,342 @@
+:root {
+  --bg-dark: #0b0914;
+  --bg-card: #151226;
+  --bg-card-hover: #221c3d;
+  --peblo-purple: #6f2bc2;
+  --peblo-purple-light: #8b3ee6;
+  --peblo-yellow: #ffc657;
+  --peblo-yellow-hover: #ffb703;
+  --peblo-soft-bg: #efedff;
+  --text-main: #ffffff;
+  --text-secondary: #a7abbd;
+  --border: #262042;
+  --font-heading: 'Grandstander', 'Comfortaa', cursive, sans-serif;
+  --font-body: 'Outfit', 'Inter Tight', sans-serif;
+  --radius-card: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, .brand-text {
+  font-family: var(--font-heading);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+  z-index: 100;
+  background: linear-gradient(180deg, rgba(11, 9, 20, 0.95) 0%, rgba(11, 9, 20, 0) 100%);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(11, 9, 20, 0.98);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  color: white;
+  text-decoration: none;
+}
+
+.brand-name {
+  color: var(--peblo-yellow);
+}
+
+.brand-badge {
+  background: var(--peblo-purple);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+/* Hero Banner */
+.hero-container {
+  position: relative;
+  height: 75vh;
+  min-height: 520px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 4% 4rem 4%;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #0b0914 0%, rgba(11, 9, 20, 0.4) 50%, rgba(11, 9, 20, 0.8) 100%),
+              linear-gradient(90deg, #0b0914 0%, rgba(11, 9, 20, 0.6) 40%, rgba(11, 9, 20, 0) 100%);
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 680px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+  color: white;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
+}
+
+.hero-synopsis {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tag-pill {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  color: #f1f5f9;
+  padding: 0.25rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Horizontal Section Rows */
+.sections-wrapper {
+  padding: 0 4%;
+  margin-top: -2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.section-row {
+  margin-bottom: 2.75rem;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.row-rail {
+  display: flex;
+  gap: 1.35rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+}
+
+.row-rail::-webkit-scrollbar {
+  height: 6px;
+}
+
+.row-rail::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+
+/* Poster Card */
+.poster-card {
+  flex: 0 0 195px;
+  background: var(--bg-card);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--border);
+  position: relative;
+}
+
+.poster-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 18px 36px rgba(111, 43, 194, 0.35);
+  border-color: var(--peblo-purple-light);
+}
+
+.poster-img-box {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  background: #1c1733;
+  overflow: hidden;
+  position: relative;
+}
+
+.poster-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.poster-info {
+  padding: 0.85rem;
+}
+
+.poster-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: var(--font-heading);
+}
+
+/* Show Detail Modal */
+.detail-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 5, 14, 0.88);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.detail-modal-card {
+  background: #120e24;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  max-width: 920px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.85);
+}
+
+.modal-banner-header {
+  position: relative;
+  height: 330px;
+  overflow: hidden;
+}
+
+.modal-banner-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.modal-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #120e24 0%, rgba(18, 14, 36, 0.3) 100%);
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+/* Episode Row in Modal */
+.episode-item-card {
+  display: flex;
+  gap: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.episode-item-card:hover {
+  background: var(--bg-card-hover);
+}
+
+.ep-thumb-box {
+  width: 165px;
+  aspect-ratio: 16 / 9;
+  background: #1c1733;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.ep-thumb-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Skeleton Loading Animation */
+.skeleton {
+  background: linear-gradient(90deg, #1c1733 25%, #2a234d 50%, #1c1733 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Lang variant pill button */
+.lang-pill-btn {
+  background: #1c1733;
+  color: #cbd5e1;
+  border: 1px solid #332b5e;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.lang-pill-btn.active {
+  background: var(--peblo-purple);
+  color: white;
+  border-color: var(--peblo-purple);
+}

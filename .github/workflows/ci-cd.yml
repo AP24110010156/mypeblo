@@ -1,0 +1,104 @@
+name: Peblo TV Mini CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-and-lint:
+    name: Backend Tests & Validation
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: peblo
+          POSTGRES_PASSWORD: peblo_password
+          POSTGRES_DB: peblo_test_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Run Backend Pytest Suite
+        env:
+          DATABASE_URL: postgresql://peblo:peblo_password@localhost:5432/peblo_test_db
+          PYTHONPATH: backend
+        run: |
+          pytest backend/tests/test_all.py -v
+
+  build-images:
+    name: Build & Verify Docker Images
+    needs: test-and-lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Backend Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./backend
+          file: ./backend/Dockerfile
+          push: false
+          tags: peblo-api:latest
+
+      - name: Build CMS UI Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./cms-ui
+          file: ./cms-ui/Dockerfile
+          push: false
+          tags: peblo-cms:latest
+
+      - name: Build Viewer UI Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./viewer-ui
+          file: ./viewer-ui/Dockerfile
+          push: false
+          tags: peblo-viewer:latest
+
+  deploy-explanation:
+    name: Deployment Step Explanation
+    needs: build-images
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Log Deployment Explanation
+        run: |
+          echo "========================================================================"
+          echo "PEBLO TV MINI DEPLOYMENT WORKFLOW EXPLANATION"
+          echo "========================================================================"
+          echo "In production, the deployment pipeline executes the following stages:"
+          echo "1. Container Registry Push: Tag images with commit SHA & 'latest' and push to GHCR or AWS ECR."
+          echo "2. DB Migration: Execute Alembic database migrations against Cloud SQL / Aurora PostgreSQL."
+          echo "3. Blue-Green / Rolling Deployment: Update Kubernetes Deployment manifests or AWS ECS Tasks."
+          echo "4. R2 Storage Sync: Sync static assets and pre-warmed catalogue to Cloudflare R2 bucket."
+          echo "5. CDN Cache Invalidation: Purge Cloudflare Edge cache for /catalog endpoint."
+          echo "========================================================================"
