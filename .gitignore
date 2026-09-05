@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment / secrets
+.env
+
+# Local database
+peblo_dev.db
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
